@@ -1,0 +1,52 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vublooddonationsociety">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:label="VU Blood Donation Society"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VUBloodDonationSociety">
+        <activity android:name=".DonorUpdateProfileActivity" />
+        <activity android:name=".DonorProfileActivity" />
+        <activity android:name=".DonationHistoryActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".PatientRegisterActivity" />
+        <activity android:name=".PatientLoginActivity" />
+        <activity android:name=".PatientProfileActivity" />
+        <activity android:name=".GenerateRequestActivity" />
+        <activity android:name=".PatientRequestsActivity" />
+        <activity android:name=".PatientAddRequestActivity" />
+        <activity android:name=".AdminApproveDonorsActivity" />
+        <activity android:name=".AdminLoginActivity" />
+        <activity android:name=".AdminUpdateProfileActivity" />
+        <activity android:name=".AdminApprovePatientsActivity" />
+        <activity android:name=".AdminViewApprovedDonorsActivity" />
+        <activity android:name=".AdminViewApprovedPatientsActivity" />
+        <activity android:name=".AdminViewApprovedRequestsActivity" />
+        <activity android:name=".AdminDashboardActivity" />
+        <activity android:name=".AdminVerifyBloodRequestsActivity" />
+        <activity android:name=".PatientUpdateProfileActivity" />
+        <activity android:name=".DonorSearchRequestsActivity" />
+        <activity android:name=".DonorNotificationsActivity" />
+        <activity android:name=".DonorAddDonationActivity" />
+        <activity android:name=".SearchDonorsActivity" />
+        <activity android:name=".AdminSendNotificationActivity" />
+
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
